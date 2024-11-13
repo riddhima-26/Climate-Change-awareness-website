@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Action Now</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>Climate Action Now</span>
+            </div>
+            <div class="nav-items">
+                <a href="#home">Home</a>
+                <a href="#impact">Impact</a>
+                <a href="#action">Take Action</a>
+                <a href="#learn">Learn More</a>
+                <button class="pledge-btn">Take the Pledge</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Our Planet Needs Your Help</h1>
+                <p>Climate change is the defining crisis of our time. Together, we can make a difference.</p>
+                <button class="cta-btn">Join the Movement</button>
+            </div>
+        </section>
+
+        <section id="impact" class="impact-section">
+            <h2>Climate Change Impact</h2>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <i class="fas fa-temperature-high"></i>
+                    <h3>Rising Temperatures</h3>
+                    <p>Global temperatures have increased by 1.1°C since pre-industrial times.</p>
+                </div>
+                <div class="impact-card">
+                    <i class="fas fa-water"></i>
+                    <h3>Sea Level Rise</h3>
+                    <p>Sea levels are rising at 3.3mm per year, threatening coastal communities.</p>
+                </div>
+                <div class="impact-card">
+                    <i class="fas fa-tree"></i>
+                    <h3>Deforestation</h3>
+                    <p>We're losing 137 species of plants and animals every day due to deforestation.</p>
+                </div>
+                <div class="impact-card">
+                    <i class="fas fa-cloud-rain"></i>
+                    <h3>Extreme Weather</h3>
+                    <p>Increased frequency of natural disasters and extreme weather events.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="action" class="action-section">
+            <h2>Take Action Now</h2>
+            <div class="action-grid">
+                <div class="action-card">
+                    <h3>Reduce</h3>
+                    <ul>
+                        <li>Use public transportation</li>
+                        <li>Reduce meat consumption</li>
+                        <li>Save energy at home</li>
+                        <li>Minimize waste</li>
+                    </ul>
+                    <button class="learn-more-btn">Learn More</button>
+                </div>
+                <div class="action-card">
+                    <h3>Reuse</h3>
+                    <ul>
+                        <li>Use reusable bags</li>
+                        <li>Choose durable products</li>
+                        <li>Repair instead of replace</li>
+                        <li>Share or donate items</li>
+                    </ul>
+                    <button class="learn-more-btn">Learn More</button>
+                </div>
+                <div class="action-card">
+                    <h3>Recycle</h3>
+                    <ul>
+                        <li>Sort waste properly</li>
+                        <li>Compost organic waste</li>
+                        <li>Buy recycled products</li>
+                        <li>Avoid single-use plastics</li>
+                    </ul>
+                    <button class="learn-more-btn">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="pledge" class="pledge-section">
+            <h2>Take the Climate Action Pledge</h2>
+            <form id="pledge-form" class="pledge-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <select required>
+                    <option value="">Choose Your Commitment</option>
+                    <option value="transport">Sustainable Transport</option>
+                    <option value="energy">Energy Conservation</option>
+                    <option value="waste">Zero Waste</option>
+                    <option value="diet">Plant-Based Diet</option>
+                </select>
+                <button type="submit">Make the Pledge</button>
+            </form>
+        </section>
+
+        <section id="counter" class="counter-section">
+            <h2>Our Impact</h2>
+            <div class="counters">
+                <div class="counter-item">
+                    <span id="pledges-count">0</span>
+                    <p>Pledges Taken</p>
+                </div>
+                <div class="counter-item">
+                    <span id="trees-count">0</span>
+                    <p>Trees Planted</p>
+                </div>
+                <div class="counter-item">
+                    <span id="carbon-count">0</span>
+                    <p>CO₂ Reduced (tons)</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@climateactionnow.org</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Climate Action Now. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
